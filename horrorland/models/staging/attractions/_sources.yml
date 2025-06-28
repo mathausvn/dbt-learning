@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: attractions
+    database: raw_database
+    schema: attractions
+    tables:
+      - name: haunted_houses
+      - name: haunted_house_tickets
