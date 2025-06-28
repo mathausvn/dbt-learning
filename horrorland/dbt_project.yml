@@ -3,6 +3,7 @@ name: horrorland
 profile: horrorland
 
 model-paths: ["models"]
+seed-paths: ["seeds"]
 
 target-path: "target"
 clean-targets:
