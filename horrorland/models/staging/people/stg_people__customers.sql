@@ -1,5 +1,5 @@
 with
-    source as (
+    customers as (
         select
             customer_id
             , age
@@ -18,4 +18,4 @@ with
     )
 
 select *
-from source
+from customers

@@ -1,5 +1,5 @@
 with
-    source as (
+    haunted_house_tickets as (
         select
             ticket_id
             , customer_id
@@ -19,4 +19,4 @@ with
     )
 
 select *
-from source
+from haunted_house_tickets
