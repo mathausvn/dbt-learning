@@ -12,9 +12,9 @@ with
             , registration_date
             , to_boolean(lower(is_vip_member)) as is_vip_member
             , preferred_scare_level
-            , created_at
-            , updated_at        
-        from {{ source('people', 'customers') }}
+            , dbt_valid_from
+            , dbt_valid_to     
+        from {{ ref('scd_customers') }}
     )
 
 select *
