@@ -1,5 +1,5 @@
 with
-    source as (
+    haunted_houses as (
         select
             haunted_house_id
             , house_name
@@ -14,4 +14,4 @@ with
     )
 
 select *
-from source
+from haunted_houses

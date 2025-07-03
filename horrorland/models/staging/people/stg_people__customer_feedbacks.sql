@@ -1,5 +1,5 @@
 with
-    source as (
+    customers_feedback as (
         select
             feedback_id
             , ticket_id
@@ -14,4 +14,4 @@ with
     )
 
 select *
-from source
+from customers_feedback
